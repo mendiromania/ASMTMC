@@ -1,0 +1,178 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      ASMTMC - Asociația Studenților la Medicină și a Tinerilor Medici din
+      Constanța
+    </title>
+    <meta charset="utf-8" />
+    <meta
+      property="og:title"
+      content="Asociația Studenților la Medicină și a Tinerilor Medici din Constanța"
+    />
+    <meta property="og:description" content="Noi suntem ASMTMC." />
+    <meta property="og:image" content="http://asmtmc.ro/img/scorp/2.jpg" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="stylesheet" href="css/style.css?v=3" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="css/font/asmtmc.css?family=AlgerianMesaW00-Regular"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/typewriter.js"></script>
+  </head>
+  <body>
+    <header class="app-header no-select">
+      <nav>
+        <div class="logo-container">
+          <div
+            class="logo"
+            style="
+              font-family: 'AlgerianMesaW00-Regular';
+              padding: 27px;
+              font-size: 2em;
+            "
+          >
+            ASMTMC
+          </div>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a class="nav-link" style="font-size: 1.25em;" href="login"
+              >conectare</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="typewriter header-text"></div>
+    </header>
+
+    <script>
+      $(".app-header").css(
+        "background-image",
+        "linear-gradient(to right,rgba(255, 255, 255, 0.8), rgba(198, 162, 117, 0.8)),url(./img/header-bg/" +
+          Math.floor(Math.random() * 12) +
+          ".jpg)"
+      );
+    </script>
+    <div id="departments">
+      <div id="scome-card" class="department-card">
+        <div class="scome header-text">
+          Medical Education
+        </div>
+        <div class="pictures no-select">
+          <img src="./img/scome/1.jpg" />
+          <img src="./img/scome/2.jpg" />
+          <img src="./img/scome/3.jpg" />
+          <img src="./img/scome/4.jpg" />
+          <img src="./img/scome/5.jpg" />
+          <img src="./img/scome/6.jpg" />
+          <img class="hidden-xs" src="./img/scome/7.jpg" />
+          <img class="hidden-xs" src="./img/scome/8.jpg" />
+          <img class="hidden-xs" src="./img/scome/9.jpg" />
+        </div>
+      </div>
+      <div id="scoph-card" class="department-card">
+        <div class="scoph header-text">Public Health</div>
+        <div class="pictures no-select">
+          <img src="./img/scoph/1.jpg" />
+          <img src="./img/scoph/2.jpg" />
+          <img src="./img/scoph/3.jpg" />
+          <img src="./img/scoph/4.jpg" />
+          <img src="./img/scoph/5.jpg" />
+          <img src="./img/scoph/6.jpg" />
+          <img class="hidden-xs" src="./img/scoph/7.jpg" />
+          <img class="hidden-xs" src="./img/scoph/8.jpg" />
+          <img class="hidden-xs" src="./img/scoph/9.jpg" />
+        </div>
+      </div>
+
+      <div id="scora-card" class="department-card">
+        <div class="scora header-text">
+          Sexual & Reproductive Health and Rights including HIV&AIDS
+        </div>
+        <div class="pictures no-select">
+          <img src="./img/scora/1.jpg" />
+          <img src="./img/scora/2.jpg" />
+          <img src="./img/scora/3.jpg" />
+          <img src="./img/scora/4.jpg" />
+          <img src="./img/scora/5.jpg" />
+          <img src="./img/scora/6.jpg" />
+          <img class="hidden-xs" src="./img/scora/7.jpg" />
+          <img class="hidden-xs" src="./img/scora/8.jpg" />
+          <img class="hidden-xs" src="./img/scora/9.jpg" />
+        </div>
+      </div>
+
+      <div id="scorp-card" class="department-card">
+        <div class="scorp header-text">
+          Rights & Peace
+        </div>
+        <div class="pictures no-select">
+          <img src="./img/scorp/1.jpg" />
+          <img src="./img/scorp/2.jpg" />
+          <img src="./img/scorp/3.jpg" />
+          <img src="./img/scorp/4.jpg" />
+          <img src="./img/scorp/5.jpg" />
+          <img src="./img/scorp/6.jpg" />
+          <img class="hidden-xs" src="./img/scorp/7.jpg" />
+          <img class="hidden-xs" src="./img/scorp/8.jpg" />
+          <img class="hidden-xs" src="./img/scorp/9.jpg" />
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".typewriter").typewrite({
+          actions: [
+            { type: "Noi suntem ASMTMC." },
+            { type: "<br>" },
+            { type: "Împreună pentru o lume mai bună." },
+            { select: { from: 39, to: 54 } },
+            { delay: 1500 },
+            { remove: { from: 39, to: 54, type: "whole" } },
+            { type: "viață sexuală sănătoasă." },
+            { select: { from: 39, to: 67 } },
+            { delay: 1500 },
+            { remove: { from: 39, to: 67, type: "whole" } },
+            { type: "medicină de calitate!" },
+            { select: { from: 0, to: 11 } },
+            { remove: { from: 0, to: 11, type: "whole" } },
+            { select: { from: 18, to: 60 } },
+            { delay: 500 },
+            { remove: { from: 18, to: 60, type: "whole" } },
+            { type: "." },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>

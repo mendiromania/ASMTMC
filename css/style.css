@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.no-select {
+  user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.app-header {
+  height: 95%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.header-text {
+  font-size: 2.3em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .nav-links {
+  display: flex;
+}
+
+nav .nav-links > li {
+  display: block;
+  padding: 1em;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.42em;
+}
+
+.logo {
+  min-width: 132px;
+}
+
+.app-header > .typewriter {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  right: 15%;
+  min-width: 75%;
+  text-align: center;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.department-card {
+  text-align: center;
+  padding-top: 1%;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  width: 80%;
+  margin-right: 10%;
+}
+
+.scoph {
+  color: #f47d3c;
+}
+
+.scora {
+  color: #bd222a;
+}
+
+.scome {
+  color: #113c8c;
+}
+
+.scorp {
+  color: #5f913f;
+}
