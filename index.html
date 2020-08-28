@@ -17,7 +17,6 @@
     />
     <meta property="og:description" content="Noi suntem ASMTMC." />
     <meta property="og:image" content="http://asmtmc.ro/img/scorp/2.jpg" />
-
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -35,18 +34,18 @@
       sizes="16x16"
       href="./img/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="./site.webmanifest" />
 
-    <link rel="stylesheet" href="css/style.css?v=3" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      href="./css/font/asmtmc.css?family=AlgerianMesaW00-Regular"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap"
       rel="stylesheet"
-    />
-    <link
-      href="css/font/asmtmc.css?family=AlgerianMesaW00-Regular"
-      rel="stylesheet"
-      type="text/css"
     />
     <script
       type="text/javascript"
@@ -58,22 +57,13 @@
     <header class="app-header no-select">
       <nav>
         <div class="logo-container">
-          <div
-            class="logo"
-            style="
-              font-family: 'AlgerianMesaW00-Regular';
-              padding: 27px;
-              font-size: 2em;
-            "
-          >
+          <div class="logo">
             ASMTMC
           </div>
         </div>
         <ul class="nav-links">
           <li>
-            <a class="nav-link" style="font-size: 1.25em;" href="login"
-              >conectare</a
-            >
+            <a class="nav-link" href="login">conectare</a>
           </li>
         </ul>
       </nav>
@@ -90,7 +80,7 @@
     </script>
     <div id="departments">
       <div id="scome-card" class="department-card">
-        <div class="scome header-text">
+        <div class="scome header-text horizontal-padding">
           Medical Education
         </div>
         <div class="pictures no-select">
@@ -106,7 +96,7 @@
         </div>
       </div>
       <div id="scoph-card" class="department-card">
-        <div class="scoph header-text">Public Health</div>
+        <div class="scoph header-text horizontal-padding">Public Health</div>
         <div class="pictures no-select">
           <img src="./img/scoph/1.jpg" />
           <img src="./img/scoph/2.jpg" />
@@ -121,7 +111,7 @@
       </div>
 
       <div id="scora-card" class="department-card">
-        <div class="scora header-text">
+        <div class="scora header-text horizontal-padding">
           Sexual & Reproductive Health and Rights including HIV&AIDS
         </div>
         <div class="pictures no-select">
@@ -138,7 +128,7 @@
       </div>
 
       <div id="scorp-card" class="department-card">
-        <div class="scorp header-text">
+        <div class="scorp header-text horizontal-padding">
           Rights & Peace
         </div>
         <div class="pictures no-select">
@@ -162,11 +152,11 @@
             { type: "<br>" },
             { type: "Împreună pentru o lume mai bună." },
             { select: { from: 39, to: 54 } },
-            { delay: 1500 },
+            { delay: 1250 },
             { remove: { from: 39, to: 54, type: "whole" } },
             { type: "viață sexuală sănătoasă." },
             { select: { from: 39, to: 67 } },
-            { delay: 1500 },
+            { delay: 1250 },
             { remove: { from: 39, to: 67, type: "whole" } },
             { type: "medicină de calitate!" },
             { select: { from: 0, to: 11 } },
